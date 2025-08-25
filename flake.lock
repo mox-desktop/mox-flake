@@ -44,11 +44,11 @@
         "rust-overlay": "rust-overlay_3"
       },
       "locked": {
-        "lastModified": 1756150099,
-        "narHash": "sha256-y0IsBXQjkRjNDcoFG7TC/5uqDOL/BJNES+23bWvAGOI=",
+        "lastModified": 1756152222,
+        "narHash": "sha256-j1favIXyWXDfNWY8eCW0NZzci3Uvq9rxZZHiTj8hhaY=",
         "owner": "mox-desktop",
         "repo": "moxnotify",
-        "rev": "e068764268d430b16079d210a0580e44a624234c",
+        "rev": "5e78cc2513dde557da8e1566000408608a5f4d16",
         "type": "github"
       },
       "original": {
@@ -63,11 +63,11 @@
         "rust-overlay": "rust-overlay_4"
       },
       "locked": {
-        "lastModified": 1756152074,
-        "narHash": "sha256-rvVN/Iaj6uq/c4/xFIMa0xnkE48tHnERUViahykn5GA=",
+        "lastModified": 1756152256,
+        "narHash": "sha256-G1lMwOpfCdtWuGeE6sjxV/mAk5NznsrmQS4IlxVtBP8=",
         "owner": "mox-desktop",
         "repo": "moxpaper",
-        "rev": "6c82f3ec154156bb8f535ce351f46a64236162bb",
+        "rev": "960b07773762f4990c0ade4ea67cf10ef94dfd49",
         "type": "github"
       },
       "original": {

@@ -37,6 +37,7 @@
           };
         };
       });
+
       homeManagerModules = {
         inherit (inputs.moxnotify.homeManagerModules) moxnotify;
         inherit (inputs.moxpaper.homeManagerModules) moxpaper;
