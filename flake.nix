@@ -33,10 +33,10 @@
           inherit (prev) system;
         in
         {
-          inherit (inputs.moxctl.packags.${system}) moxctl;
-          moxnotify = inputs.moxnotify.packages.${system}.default;
-          moxidle = inputs.moxidle.packages.${system}.default;
-          moxpaper = inputs.moxpaper.packages.${system}.default;
+          inherit (inputs.moxctl.packages.${system}) moxctl;
+          inherit (inputs.moxnotify.packages.${system}) moxnotify;
+          inherit (inputs.moxidle.packages.${system}) moxidle;
+          inherit (inputs.moxpaper.packages.${system}) moxpaper;
         };
     in
     {
