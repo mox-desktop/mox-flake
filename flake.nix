@@ -6,7 +6,6 @@
     moxctl.url = "github:mox-desktop/moxctl";
     moxpaper.url = "github:mox-desktop/moxpaper";
   };
-
   outputs =
     {
       nixpkgs,
@@ -26,7 +25,6 @@
           in
           function pkgs
         );
-
       overlays =
         final: prev:
         let
@@ -50,11 +48,12 @@
           };
         };
       });
-
       homeManagerModules = {
-        default = import ./nix/home-manager.nix;
+        moxidle = inputs.moxidle.homeManagerModules.default;
+        moxnotify = inputs.moxnotify.homeManagerModules.default;
+        moxctl = inputs.moxctl.homeManagerModules.default;
+        moxpaper = inputs.moxpaper.homeManagerModules.default;
       };
-
       overlay = overlays;
       overlays.default = overlays;
     };
