@@ -25,17 +25,6 @@
           in
           function pkgs
         );
-      overlays =
-        final: prev:
-        let
-          inherit (prev) system;
-        in
-        {
-          inherit (inputs.moxctl.packages.${system}) moxctl;
-          inherit (inputs.moxnotify.packages.${system}) moxnotify;
-          inherit (inputs.moxidle.packages.${system}) moxidle;
-          inherit (inputs.moxpaper.packages.${system}) moxpaper;
-        };
     in
     {
       devShells = forAllSystems (pkgs: {
@@ -49,12 +38,22 @@
         };
       });
       homeManagerModules = {
-        moxidle = inputs.moxidle.homeManagerModules.default;
-        moxnotify = inputs.moxnotify.homeManagerModules.default;
-        moxctl = inputs.moxctl.homeManagerModules.default;
-        moxpaper = inputs.moxpaper.homeManagerModules.default;
+        inherit (inputs.moxnotify.homeManagerModules) moxnotify;
+        inherit (inputs.moxpaper.homeManagerModules) moxpaper;
+        inherit (inputs.moxidle.homeManagerModules) moxidle;
+        inherit (inputs.moxctl.homeManagerModules) moxctl;
       };
-      overlay = overlays;
-      overlays.default = overlays;
+
+      overlays.default =
+        final: prev:
+        let
+          inherit (prev) system;
+        in
+        {
+          inherit (inputs.moxctl.packages.${system}) moxctl;
+          inherit (inputs.moxnotify.packages.${system}) moxnotify;
+          inherit (inputs.moxidle.packages.${system}) moxidle;
+          inherit (inputs.moxpaper.packages.${system}) moxpaper;
+        };
     };
 }
