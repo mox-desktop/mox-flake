@@ -63,11 +63,11 @@
         "rust-overlay": "rust-overlay_4"
       },
       "locked": {
-        "lastModified": 1756147379,
-        "narHash": "sha256-4zyBpIhZPtWuQHJ7Php2aHW+EdpMYKBhcj+4U7IVt6Y=",
+        "lastModified": 1756147688,
+        "narHash": "sha256-kMsjmd6GJj98SEQpN76onU12Kww7KoTdzQeiYbqjXbQ=",
         "owner": "mox-desktop",
         "repo": "moxpaper",
-        "rev": "e85735bc20242e03ac9a4f7ec093b84dc510d9c3",
+        "rev": "e62fcceb299691597275debedec6134cd73bd825",
         "type": "github"
       },
       "original": {
