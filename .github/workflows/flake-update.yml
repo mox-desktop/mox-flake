@@ -23,7 +23,7 @@ jobs:
       
       - name: Set up git
         run: |
-          git config user.email gitbot@unixpariah.dev
+          git config user.email gitbot@mox-desktop.dev
           git config user.name "Git Bot"
       
       - name: Update flake and commit

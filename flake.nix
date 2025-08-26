@@ -7,27 +7,30 @@
   };
   outputs =
     {
-      nixpkgs,
+      moxnotify,
+      moxpaper,
+      moxidle,
+      moxctl,
       ...
-    }@inputs:
+    }:
     {
       homeManagerModules = {
-        inherit (inputs.moxnotify.homeManagerModules) moxnotify;
-        inherit (inputs.moxpaper.homeManagerModules) moxpaper;
-        inherit (inputs.moxidle.homeManagerModules) moxidle;
-        inherit (inputs.moxctl.homeManagerModules) moxctl;
+        inherit (moxnotify.homeManagerModules) moxnotify;
+        inherit (moxpaper.homeManagerModules) moxpaper;
+        inherit (moxidle.homeManagerModules) moxidle;
+        inherit (moxctl.homeManagerModules) moxctl;
       };
 
       overlays.default =
         final: prev:
         let
-          inherit (prev) system;
+          inherit (prev.stdenv.hostPlatform) system;
         in
         {
-          inherit (inputs.moxctl.packages.${system}) moxctl;
-          inherit (inputs.moxnotify.packages.${system}) moxnotify;
-          inherit (inputs.moxidle.packages.${system}) moxidle;
-          inherit (inputs.moxpaper.packages.${system}) moxpaper;
+          inherit (moxctl.packages.${system}) moxctl;
+          inherit (moxnotify.packages.${system}) moxnotify;
+          inherit (moxidle.packages.${system}) moxidle;
+          inherit (moxpaper.packages.${system}) moxpaper;
         };
     };
 }
