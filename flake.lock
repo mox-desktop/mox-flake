@@ -25,11 +25,11 @@
         "rust-overlay": "rust-overlay_2"
       },
       "locked": {
-        "lastModified": 1756157657,
-        "narHash": "sha256-w1nntQur2K7VVdHHAbe+nWNv7SuPB4S7X3LTEUIHbrA=",
+        "lastModified": 1756200811,
+        "narHash": "sha256-o+kfkPpXprk8FXwHAR8tUQs3Gc3C105DM2pDGFnKxHo=",
         "owner": "mox-desktop",
         "repo": "moxidle",
-        "rev": "93aa14444d7c10fc69d4f92d5c50612117c5ae83",
+        "rev": "8c63c6385d2638fec9b85e9c826a2a47ace9c170",
         "type": "github"
       },
       "original": {
@@ -142,18 +142,16 @@
     },
     "nixpkgs_5": {
       "locked": {
-        "lastModified": 1755615617,
-        "narHash": "sha256-HMwfAJBdrr8wXAkbGhtcby1zGFvs+StOp19xNsbqdOg=",
+        "lastModified": 1756128520,
+        "narHash": "sha256-R94HxJBi+RK1iCm8Y4Q9pdrHZl0GZoDPIaYwjxRNPh4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "20075955deac2583bb12f07151c2df830ef346b4",
+        "rev": "c53baa6685261e5253a1c355a1b322f82674a824",
         "type": "github"
       },
       "original": {
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
+        "id": "nixpkgs",
+        "type": "indirect"
       }
     },
     "root": {
