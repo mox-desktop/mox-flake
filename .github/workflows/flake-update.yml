@@ -28,13 +28,23 @@ jobs:
       
       - name: Update flake and commit
         run: |
-          nix flake update
+          PROJECT_NAME="${{ github.event.client_payload.project_name }}"
+          
+          if [ -z "$PROJECT_NAME" ]; then
+            echo "No project name specified, skipping update."
+            exit 0
+          fi
+      
+          echo "Updating flake input: $PROJECT_NAME"
+          nix flake update "$PROJECT_NAME"
+      
           if git diff --quiet flake.lock; then
             echo "No changes to flake.lock"
             exit 0
           fi
+      
           git add flake.lock
-          git commit -m "flake.lock: Update $(date '+%Y-%m-%d %H:%M')"
+          git commit -m "flake.lock: Update $PROJECT_NAME $(date '+%Y-%m-%d %H:%M')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITBOT_TOKEN }}
