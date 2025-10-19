@@ -41,11 +41,11 @@
         "tooling": "tooling_3"
       },
       "locked": {
-        "lastModified": 1760843318,
-        "narHash": "sha256-uuIdBEwg0BmbfJF3M4ZsO7s6fdGagGtfjj1A09FRtWk=",
+        "lastModified": 1760900968,
+        "narHash": "sha256-/YNJK+9hisCbox48/wD3CZ96N8HNAt8HiG7AeEOiDR0=",
         "owner": "mox-desktop",
         "repo": "moxnotify",
-        "rev": "264391fb514b1422b981bdb98e670f34742a7718",
+        "rev": "0c2c1f042d9aa63c8bc76c94a9a3be46e1971165",
         "type": "github"
       },
       "original": {
