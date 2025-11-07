@@ -59,11 +59,11 @@
         "tooling": "tooling_4"
       },
       "locked": {
-        "lastModified": 1762378331,
-        "narHash": "sha256-QURicRrVKgGGckNI5xBoAreMfvPjXpanmEWsnE3UUBw=",
+        "lastModified": 1762472986,
+        "narHash": "sha256-C5FX8B8PvZ5E24pQ5V22EdwRZRsjjnEDm30jUOnJqb8=",
         "owner": "mox-desktop",
         "repo": "moxpaper",
-        "rev": "a2c41bbe375829275383fcebc0365413ebb081aa",
+        "rev": "21632890b64c11edc18717eb935e70e5eecee5ba",
         "type": "github"
       },
       "original": {
