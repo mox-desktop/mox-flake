@@ -1,9 +1,9 @@
 {
   inputs = {
-    moxidle.url = "github:mox-desktop/moxidle";
-    moxnotify.url = "github:mox-desktop/moxnotify";
-    moxctl.url = "github:mox-desktop/moxctl";
-    moxpaper.url = "github:mox-desktop/moxpaper";
+    moxidle.url = "git+https://forgejo.r0chd.pl/mox-desktop/moxidle.git";
+    moxnotify.url = "git+https://forgejo.r0chd.pl/mox-desktop/moxnotify.git";
+    moxctl.url = "git+https://forgejo.r0chd.pl/mox-desktop/moxctl.git";
+    moxpaper.url = "git+https://forgejo.r0chd.pl/mox-desktop/moxpaper.git";
   };
   outputs =
     {

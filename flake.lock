@@ -7,15 +7,15 @@
       "locked": {
         "lastModified": 1763262733,
         "narHash": "sha256-dqU7HQbMBTHggBttq/qcpYrsEfvZUkHxt3JrxS7mKvI=",
-        "owner": "mox-desktop",
-        "repo": "moxctl",
+        "ref": "refs/heads/master",
         "rev": "afe61ef5b74bfcc538440c39b74e729e03f4f541",
-        "type": "github"
+        "revCount": 26,
+        "type": "git",
+        "url": "https://forgejo.fi.r0chd.pl/mox-desktop/moxctl.git"
       },
       "original": {
-        "owner": "mox-desktop",
-        "repo": "moxctl",
-        "type": "github"
+        "type": "git",
+        "url": "https://forgejo.fi.r0chd.pl/mox-desktop/moxctl.git"
       }
     },
     "moxidle": {
@@ -25,15 +25,15 @@
       "locked": {
         "lastModified": 1763263324,
         "narHash": "sha256-+YJbS1CUUOGbc1UQG2Q96OM+dJ8ncOv8SEm1YraUDIE=",
-        "owner": "mox-desktop",
-        "repo": "moxidle",
+        "ref": "refs/heads/master",
         "rev": "18863c0943c278c79d0045b905ce0958baea7641",
-        "type": "github"
+        "revCount": 87,
+        "type": "git",
+        "url": "https://forgejo.fi.r0chd.pl/mox-desktop/moxidle.git"
       },
       "original": {
-        "owner": "mox-desktop",
-        "repo": "moxidle",
-        "type": "github"
+        "type": "git",
+        "url": "https://forgejo.fi.r0chd.pl/mox-desktop/moxidle.git"
       }
     },
     "moxnotify": {
@@ -43,15 +43,15 @@
       "locked": {
         "lastModified": 1763262627,
         "narHash": "sha256-4UnN0jz6cfmje2ILVorPt3L1LV3YJWbW487TyPacd0c=",
-        "owner": "mox-desktop",
-        "repo": "moxnotify",
+        "ref": "refs/heads/master",
         "rev": "450bd388329a437594fec0e33554fbd2e2706136",
-        "type": "github"
+        "revCount": 300,
+        "type": "git",
+        "url": "https://forgejo.fi.r0chd.pl/mox-desktop/moxnotify.git"
       },
       "original": {
-        "owner": "mox-desktop",
-        "repo": "moxnotify",
-        "type": "github"
+        "type": "git",
+        "url": "https://forgejo.fi.r0chd.pl/mox-desktop/moxnotify.git"
       }
     },
     "moxpaper": {
@@ -61,15 +61,15 @@
       "locked": {
         "lastModified": 1763262849,
         "narHash": "sha256-aOpzCek1bPY+bqvWz0k2d1tyYHr7I6g5VtQA7yEIcbg=",
-        "owner": "mox-desktop",
-        "repo": "moxpaper",
+        "ref": "refs/heads/master",
         "rev": "cd2dd67a13a91d4909574935bef4ca67c198c37e",
-        "type": "github"
+        "revCount": 132,
+        "type": "git",
+        "url": "https://forgejo.fi.r0chd.pl/mox-desktop/moxpaper.git"
       },
       "original": {
-        "owner": "mox-desktop",
-        "repo": "moxpaper",
-        "type": "github"
+        "type": "git",
+        "url": "https://forgejo.fi.r0chd.pl/mox-desktop/moxpaper.git"
       }
     },
     "nixpkgs": {
