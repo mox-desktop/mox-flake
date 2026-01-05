@@ -41,11 +41,11 @@
         "tooling": "tooling_3"
       },
       "locked": {
-        "lastModified": 1767569437,
-        "narHash": "sha256-jKiJokslJt2ly7alqfkHtuXrpFqwxZwyHeswxVI4EqY=",
+        "lastModified": 1767576390,
+        "narHash": "sha256-0HaPmBkYlR+AIx+gRg6Km/l5zIljTNiNnHDdVbVCEaw=",
         "ref": "refs/heads/master",
-        "rev": "9ed5968216b04a7776e723087a8b269f12a83990",
-        "revCount": 359,
+        "rev": "1d7cc4db08853a6ac196a795bf3120d2d5fe370d",
+        "revCount": 360,
         "type": "git",
         "url": "https://forgejo.r0chd.pl/mox-desktop/moxnotify.git"
       },
