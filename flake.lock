@@ -59,11 +59,11 @@
         "tooling": "tooling_4"
       },
       "locked": {
-        "lastModified": 1766687629,
-        "narHash": "sha256-jy0FtH7502/iRuee7FkTsyJ/iBMnLQre4TMLXxoGMgI=",
+        "lastModified": 1767918004,
+        "narHash": "sha256-80NRB90mGECDOMQzJ556pJME+F3vl8CRSvUsWL9WV4I=",
         "ref": "refs/heads/master",
-        "rev": "6c7ba0151b06aa31b5f1ffdb70cd268dd404d514",
-        "revCount": 134,
+        "rev": "ee1147fab53d77df0c35346cd4675a34a654f59c",
+        "revCount": 135,
         "type": "git",
         "url": "https://forgejo.r0chd.pl/mox-desktop/moxpaper.git"
       },
